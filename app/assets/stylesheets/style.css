@@ -7,10 +7,10 @@
 
 #page {
 	width:700px;
+  height: 150px;
    margin:0 auto;
    position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-  height: 150px;
 	position: relative;
 	top: 1%;
 	/*transform: 			translateY(-50%);*/
@@ -59,7 +59,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 147px;
-	margin-left: 852px;
+	margin-left: 787px;
 	margin-top: 50px;
 	font-size: .9em;
 	position: absolute;
@@ -93,7 +93,7 @@ body {
 	font-family: 'Corben', Georgia, Times, serif;
 	color: #FF7F3F;
 	width: 30px;
-	margin-left: -65px;
+	margin-left: -130px;
 	margin-top: 48px;
 	font-size: 2.5em;
 	position: absolute;
