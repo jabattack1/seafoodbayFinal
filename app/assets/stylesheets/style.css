@@ -34,11 +34,11 @@ body {
   background-position: center;
   font-family: Georgia, serif;
   position: absolute;
-  /*background-size: contain;*/
+  background-size: contain;
   background-repeat:no-repeat;
+  background-attachment:fixed;
 
 /*background-position:center;*/
-background-attachment:fixed;
 
 }
 
