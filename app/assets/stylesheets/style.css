@@ -42,7 +42,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 693px;
-	margin-left: 150px;
+	margin-left: 85px;
 	margin-top: 82px;
 	font-size: 3.4em;
 	position: absolute;
@@ -76,7 +76,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 167px;
-	margin-left: -42px;
+	margin-left: -102px;
 	margin-top: 493px;
 	font-size: 1.9em;
 	position: absolute;
@@ -106,7 +106,7 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: -42px;
+	margin-left: -102px;
 	margin-top: 190px;
 	font-size: .8em;
 	background-color: #FFFFFF;
@@ -122,7 +122,7 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: -65px;
+	margin-left: -125px;
 	margin-top: 600px;
 	font-size: .8em;
 	/*background-color: #FFFFFF;*/
@@ -328,7 +328,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -346,7 +346,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -363,7 +363,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -380,7 +380,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -397,7 +397,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -414,7 +414,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -431,7 +431,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -449,7 +449,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 150px;
+	margin-left: 90px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -570,7 +570,7 @@ h1 {
    position: absolute;
   text-align:center;
     margin-top: 280px;
-    margin-left: -15px;
+    margin-left: -75px;
     
 }
 
