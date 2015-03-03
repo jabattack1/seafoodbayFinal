@@ -28,7 +28,7 @@ body {
   background: url() no-repeat;
   background-image: url("boat-coloring-pages-17.jpg");
  	
-  background-size: cover;
+  /*background-size: cover;*/
   /*background-size: 100%;*/
   background-color: #FFFFFF;
   background-position: center;
