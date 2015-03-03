@@ -109,13 +109,31 @@ body {
 	margin-left: -42px;
 	margin-top: 190px;
 	font-size: .8em;
-	background: transparent url(http://html-generator.weebly.com/files/theme/input-text-8.png) repeat-x; 
+	background-color: #FFFFFF;
     border: 2px solid #000000; 
     outline:0; 
     height: 62px; 
     width: 165px; 
     background-color: #FFFFFF;
     padding: 4px;
+}
+
+#copyright {
+	border-radius: 5px 5px 5px 5px;
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-left: -65px;
+	margin-top: 600px;
+	font-size: .8em;
+	/*background-color: #FFFFFF;*/
+    /*border: 2px solid #000000; */
+    /*outline:0; */
+    height: 22px; 
+    width: 200px; 
+    /*background-color: #FFFFFF;*/
+    padding: 0px;
+}
+
 }
 
 
