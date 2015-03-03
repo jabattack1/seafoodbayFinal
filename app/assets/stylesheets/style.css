@@ -35,6 +35,10 @@ body {
   font-family: Georgia, serif;
   position: absolute;
   /*background-size: contain;*/
+  background-repeat:no-repeat;
+
+background-position:top center;
+background-attachment:fixed;
 
 }
 
