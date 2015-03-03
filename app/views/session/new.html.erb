@@ -1,0 +1,27 @@
+
+  <% if @popup_message %>
+  <script type="text/javascript">
+   alert("<%= @popup_message %>");
+  </script>
+<% end %>
+
+
+<div class="iform" id="log_in" style="overflow-y: auto">
+
+<p class="iheader">User Login</p>
+<form action="/session" method="POST">
+  <label class="ilabel">
+    <input name="email" placeholder="Email:"class="itext" />
+  </label><br>
+
+  <label class="ilabel">
+    <input name="password" placeholder="Password" class="itext"/>
+  </label><br>
+
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+
+  <input type="submit" id="account_submit" class="ibutton"/>
+
+</div>
+</form>
+</div>

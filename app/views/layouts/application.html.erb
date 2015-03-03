@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="shortcut icon" href="http://4.bp.blogspot.com/-7Er12TTl8p8/UHvz1zEBs-I/AAAAAAAAASU/cMXZEn64hUQ/s1600/clipart+fish.gif">
+<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Allan:bold" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Cardo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lekton" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Molengo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css">
+
+  <title>Seafoodbay</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  
+</head>
+<body>
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  <form>
+<div>
+      <h1 id="banner">ICE COLD BEER DINE-IN OR TO GO!!!</h1>
+</div>
+
+<div><h4 id="banner_schedule">STORE HOURS<br>Tuesday-Friday 10AM-10PM<br>Saturday 11AM-10PM<br>Sunday 12PM-8PM<br>Monday 11AM-10PM</h4></div>
+
+<div>
+      <h1 id="gift">Gift Certificates Available</h1>
+</div>
+  <div class="band navigation">
+    <nav class="container primary">
+	<h3 id="logo">Seafood Bay</h3>
+    <h6 id="logo_address">8006 Frankford Ave.  @Rhawn Street, Philly<br>phone: 215 332 3838<br>Take-Out/Dine-In Only</h6>  
+
+	<ul>
+	<a href="/" id="home_link">Home</a>   <a href="/info" id="about_link">About Us</a>   <a href="/appetizers" id="menu_link">Menu</a>  <a href="/contact" id="contact_link">Contact Us</a>   <a href="https://www.facebook.com/pages/Seafood-bay/227842827352310" id="fb_link"><img src="http://i.imgur.com/7HAjfgk.png"/></a>
+	</ul>
+
+  <script>
+   $(function (){
+      $(".player").YTPlayer();
+    });
+  </script>
+
+  <div id="bgndVideo" class="player" 
+      data-property="{videoURL:'http://youtu.be/RMjkYvmTH-I',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}" style="overflow-y: auto">
+  </div>
+
+  <script type="text/javascript">
+$(document).ready(function(){    
+    //Check if the current URL contains '#'
+    if(document.URL.indexOf("#")==-1){
+        // Set the URL to whatever it was plus "#".
+        url = document.URL+"#";
+        location = "#";
+
+        //Reload the page
+        location.reload(true);
+    }
+});
+</script>
+
+      
+    </nav>
+  </div>
+
+<!-- <div class="fb-like" data-href="https://www.facebook.com/pages/Seafood-bay/227842827352310" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div> -->
+  </form>
+
+
+  
+
+<%= yield %>
+
+
+
+</body>
+</html>

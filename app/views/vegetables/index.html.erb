@@ -1,0 +1,58 @@
+<div id="about" style="overflow-y: auto">
+
+<div class="menu">
+
+<div class="courseContainer">
+<li><a href="/appetizers" id="app_link">Appetizers</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/fried_platters" id="fp_link">Fried Platters</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/broiled_platters" id="br_link">Broiled Plat</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/cold_platters" id="cd_link">Cold Platters</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/vegetables" id="veg_link">Vegetables</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/specials" id="sp_link">Specials</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/lunches" id="ls_link">Lunch Special</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/side_orders" id="sides_link">Sides</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/alacartes" id="alc_link">A La Carte</a></li>
+</div>
+<div class="courseContainer">
+<li><a href="/fresh_fishes" id="ff_link">Fresh Fish</a></li>
+</div>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h6><center>"IF WE DON'T HAVE IT, WE'LL GET IT"  ANY FRESH FISH CAN BE MADE INTO A BROILED PLATTER - PLEASE ASK!  WATCH FOR THE FRESH FILET OF THE WEEK"  broiling charge $4.00 * $2.00 1/2 lb.</center></h6>
+	<h4><center><%= @vegetables[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @vegetables.each do |app| %>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.price %></td>
+	<td><%= app.description %></td>
+	</tr>
+	</tbody>
+
+	<% end %>
+</table>
+
+</div>
+</div>

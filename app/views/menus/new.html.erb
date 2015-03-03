@@ -1,0 +1,352 @@
+<div class="iform" id="admin_account" style="overflow-y: auto">
+	
+
+<form method="POST" action=<%= "/admin_session/" + session[:user_id].to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=session[:user_id].to_s%>/>
+  		<input type="submit" value="LOG OUT" class="admin_logout"/>
+</form>
+
+
+<form method="POST" action="/menus">
+
+	<p class="iheader">Create Menu Item</p>
+
+	&nbsp;&nbsp;<select class="iselect" name="course" >
+	<option disabled selected> -- select a course-- </option>
+  	<option value="Appetizers">Appetizers</option>
+  	<option value="Fried Platters">Fried Platters</option>
+  	<option value="Cold Platters">Cold Platters</option>
+  	<option value="Broiled Platters">Broiled Platters</option>
+  	<option value="Vegetables">Vegetables</option>
+  	<option value="Lunch">Lunch</option>
+  	<option value="Specials">Specials</option>
+  	<option value="Side Order">Side Order</option>
+  	<option value="A La Carte">A la Carte</option>
+  	<option value="Fresh Fish">Fresh Fish</option>
+	</select><br>
+
+	<label class="ilabel">
+		<input type="text" name="dish_name" placeholder="Dish Name" class="itext"/>
+	</label><br>
+
+	<label class="ilabel">
+		<input type="text" name="description" placeholder="Description" class="itext"/>
+	</label><br>
+
+	<label class="ilabel">
+		<input type="text" name="price" placeholder="Price" class="itext"/>
+	</label><br>
+
+	<input type="submit" id="admin_create" value="CREATE ITEM" class="ibutton"/>
+
+</form>
+
+<div class="menu">
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="ff_course"><%= @fresh_fishes[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @fresh_fishes.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="app_course"><%= @appetizers[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @appetizers.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td> 
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="fp_course"><%= @fried_platters[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @fried_platters.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+	
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="ala_course"><%= @alacarte[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @alacarte.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="so_course"><%= @side_order[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @side_order.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="lunch_course"><%= @lunch[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @lunch.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="veg_course"><%= @vegetables[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @vegetables.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="bp_course"><%= @broiled_platters[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @broiled_platters.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="cp_course"><%= @cold_platters[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @cold_platters.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+<table class="u-full-width">
+	</thead>
+	</tr>
+	<br>
+	<h4><center class="specials_course"><%= @specials[0].course %></center></h4>
+	</tr>
+	</thead>
+
+	<tbody>
+	<tr>
+	<% @specials.each do |app| %>
+	<td><%= app.course %></td>
+	<td><%= app.id %></td>
+	<td><%= app.dish_name %></td> 
+	<td><%= app.description %></td>
+	<td><%= app.price %></td>
+
+	<td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
+  		<input type="hidden" name="_method" value="DELETE" />
+  		<input type="hidden" name="id" value=<%=app.id.to_s%>/>
+  		<input type="submit" value="DELETE" class="ibutton"/>
+	</form></td>
+
+	<td><input type="submit" value="EDIT" id="edit" class="edit ibutton"/></td>
+
+	</tr>
+	</tbody>
+	<% end %>
+</table>
+
+</div>
+
+</div>
+
+
+

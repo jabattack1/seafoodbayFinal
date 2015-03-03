@@ -1,0 +1,52 @@
+  <% if @popup_message %>
+  <script type="text/javascript">
+   alert("<%= @popup_message %>");
+  </script>
+<% end %>
+
+<div class="iform" id="admin_account" style="overflow-y: auto">
+
+<p class="iheader">Log In As Admin</p>
+
+<form action="/admin_session" method="POST">
+  <label class="ilabel">
+    <input type="text" name="email" placeholder="Email:"class="itext"/>
+  </label><br>
+
+  <label class="ilabel">
+  <input type="text" name="password" placeholder="Password" class="itext" />
+  <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden"/>
+  </label><br>
+
+  <input type="submit" id="admin_sign_in" class="ibutton"/>
+
+</form>
+<br>
+
+
+<!-- <p class="iheader">Create New Admin Account</p>
+
+<form method="POST" action="/admins">
+	<label class="ilabel">
+		<input type="text" name="first_name" placeholder="First Name"class="itext"/>
+	</label><br>
+
+	<label class="ilabel">
+		<input type="text" name="last_name" placeholder="Last Name"class="itext"/>
+	</label><br>
+
+	<label class="ilabel">
+		<input type="text" name="email" placeholder="Email" class="itext"/>
+	</label><br>
+
+	<label class="ilabel">
+	<input type="text" name="password" placeholder="Password" class="itext"/><br>
+	<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden"/>
+	</label><br>
+
+	<input type="submit" id="admin_create" class="ibutton"/>
+
+</form> -->
+
+</div>
+</div>
