@@ -5,19 +5,29 @@
   src: url(../fonts/mistral.woff);
 }*/
 
+#page {
+	margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+
 html, body {
   height: 100%;
+
 }
 
 body {
   background: url() no-repeat;
   background-image: url("boat-coloring-pages-17.jpg");
- 
+ 	
   /*background-size: cover;*/
-  background-size: 80%;
+  /*background-size: 80%;*/
   background-color: #FFFFFF;
   background-position: center;
   font-family: Georgia, serif;
+  /*position: fixed;*/
+  background-size: contain;
 
 }
 
@@ -28,12 +38,13 @@ body {
 	margin-left: 280px;
 	margin-top: 82px;
 	font-size: 3.4em;
-	position: fixed;
+	position: absolute;
 	text-shadow: 2px 2px 2px #000000;
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
 	height: 60px;
+	max-height: 100px;
 	/*float: left;*/
 }
 
@@ -44,7 +55,7 @@ body {
 	margin-left: 982px;
 	margin-top: 50px;
 	font-size: .9em;
-	position: fixed;
+	position: absolute;
 	text-shadow: 2px 2px 2px #000000;
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
@@ -61,7 +72,7 @@ body {
 	margin-left: 83px;
 	margin-top: 493px;
 	font-size: 1.9em;
-	position: fixed;
+	position: absolute;
 	text-shadow: 1.5px 1.5px 1.5px #000000;
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
@@ -78,7 +89,7 @@ body {
 	margin-left: 65px;
 	margin-top: 48px;
 	font-size: 2.5em;
-	position: fixed;
+	position: absolute;
 	text-shadow: 3px 3px 3px #000000;
 	
 	/*float: left;*/
@@ -87,7 +98,7 @@ body {
 #logo_address {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
-	position: fixed;
+	position: absolute;
 	margin-left: 83px;
 	margin-top: 190px;
 	font-size: .8em;
@@ -295,13 +306,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 }
 
 
@@ -313,13 +324,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+   
 
 }
 
@@ -330,13 +341,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 
 }
 
@@ -347,13 +358,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 
 }
 
@@ -364,13 +375,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 
 }
 
@@ -381,13 +392,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 
 }
 
@@ -398,13 +409,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 
 }
 
@@ -416,13 +427,13 @@ a:link, a:visited {
 	color: #FFFFFF;
 	margin-left: 280px;
 	margin-top: 165px;
-	position: fixed;
+	position: absolute;
 	background-color: #000000;
 	width: 850px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    position: fixed;
+    
 
 }
 
@@ -472,7 +483,7 @@ a:link, a:visited {
 	height: 385px;
 	margin-left: 380px;
 	margin-top: 10px;
-	position: fixed;
+	position: absolute;
 }
 
 #beer2 {
@@ -480,7 +491,7 @@ a:link, a:visited {
 	height: 385px;
 	margin-left: 610px;
 	margin-top: 10px;
-	position: fixed;
+	position: absolute;
 }
 
 #shrimp {
@@ -488,13 +499,13 @@ a:link, a:visited {
 	height: 270px;
 	margin-left: 30px;
 	margin-top: 200px;
-	position: fixed;
+	position: absolute;
 }
 
 #talk {
 	width: 250px;
 	margin-left: 30px;
-	position: fixed;
+	position: absolute;
 	font-size: 1.2em;
 }
 
@@ -502,7 +513,7 @@ a:link, a:visited {
 	width: 250px;
 	margin-left: 30px;
 	margin-top: 270px;
-	position: fixed;
+	position: absolute;
 	font-size: 1.2em;
 }
 
@@ -510,7 +521,7 @@ a:link, a:visited {
 	width: 250px;
 	margin-left: 30px;
 	margin-top: 30px;
-	position: fixed;
+	position: absolute;
 	font-size: 1.2em;
 }
 
@@ -518,7 +529,7 @@ a:link, a:visited {
 	width: 250px;
 	margin-left: 30px;
 	margin-top: 150px;
-	position: fixed;
+	position: absolute;
 	font-size: 1.2em;
 }
 
@@ -529,13 +540,14 @@ h1 {
   text-align: center;
 }
 
-ul {
+.list {
   list-style: none;
   display: block;
+   position: absolute;
   text-align:center;
-   position: fixed;
-    top: 270px;
-    left: 75px;
+    margin-top: 280px;
+    margin-left: 115px;
+    
 }
 
 
