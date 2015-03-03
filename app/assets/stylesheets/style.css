@@ -33,7 +33,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 693px;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 82px;
 	font-size: 3.4em;
 	position: absolute;
@@ -50,7 +50,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 147px;
-	margin-left: 982px;
+	margin-left: 917px;
 	margin-top: 50px;
 	font-size: .9em;
 	position: absolute;
@@ -67,7 +67,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 172px;
-	margin-left: 83px;
+	margin-left: 18px;
 	margin-top: 493px;
 	font-size: 1.9em;
 	position: absolute;
@@ -84,7 +84,7 @@ body {
 	font-family: 'Corben', Georgia, Times, serif;
 	color: #FF7F3F;
 	width: 30px;
-	margin-left: 65px;
+	margin-left: 0px;
 	margin-top: 48px;
 	font-size: 2.5em;
 	position: absolute;
@@ -97,7 +97,7 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: 83px;
+	margin-left: 18px;
 	margin-top: 190px;
 	font-size: .8em;
 	background: transparent url(http://html-generator.weebly.com/files/theme/input-text-8.png) repeat-x; 
@@ -302,7 +302,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -320,7 +320,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -337,7 +337,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -354,7 +354,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -371,7 +371,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -388,7 +388,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -405,7 +405,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -423,7 +423,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 280px;
+	margin-left: 215px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
@@ -544,7 +544,7 @@ h1 {
    position: absolute;
   text-align:center;
     margin-top: 280px;
-    margin-left: 115px;
+    margin-left: 50px;
     
 }
 
