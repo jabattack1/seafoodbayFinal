@@ -6,8 +6,10 @@
 }*/
 
 #page {
-	width:960px;
-   margin:0 auto;
+	/*width:960px;*/
+   margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 html, body {
