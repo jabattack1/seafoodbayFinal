@@ -33,7 +33,7 @@ body {
   background-color: #FFFFFF;
   background-position: center;
   font-family: Georgia, serif;
-  position: absolute;
+  /*position: absolute;*/
   background-size: contain;
   background-repeat:no-repeat;
   background-attachment:fixed;
