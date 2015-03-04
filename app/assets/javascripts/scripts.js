@@ -24,9 +24,9 @@ $app_edit_buttons.on('click', function (){
 	// var flashy_description = $(description).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + description.innerText + "\" class=\"itext description\"/></td>");
 	// var flashy_price = $(price).replceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + price.innerText + "\" class=\"itext price\"/></td>");
 
-	var flashy_name = $(dish_name).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + dish_name.innerText + "\" class=\"itext dish_name\"/></td>");
-	var flashy_description = $(description).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + description.innerText + "\" class=\"itext description\"/></td>");
-	var flashy_price = $(price).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + price.innerText + "\" class=\"itext price\"/></td>");
+	var flashy_name = $(dish_name).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + dish_name.innerText + "\" class=\"itexts dish_name\"/></td>");
+	var flashy_description = $(description).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + description.innerText + "\" class=\"itexts description\"/></td>");
+	var flashy_price = $(price).replaceWith("<td><input type=\"text\" name=\"dish_name\" value=\"" + price.innerText + "\" class=\"itexts price\"/></td>");
 	// <td><form method="POST" action=<%= "/menus/" + app.id.to_s%>>
 	// var flashy_delete_button = $(delete_button).replaceWith("<td><input type=\"submit\" value=\"UDPATE\" id=\"update\" class=\"update ibutton\"/></td>");
 	// $app_edit_buttons.on('click', function (){

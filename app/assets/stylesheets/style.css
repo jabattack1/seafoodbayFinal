@@ -6,14 +6,14 @@
 }*/
 
 #page {
-	width:700px;
-  height: 150px;
+	width:900px;
+  height: 675px;
    margin:0 auto;
    position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
 	position: absolute;
 	top: 1%;
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	/*transform: 			translateY(-50%);*/
 }
 
@@ -46,10 +46,10 @@ body {
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
-	width: 693px;
-	margin-left: 88px;
+	width: 650px;
+	margin-left: 222px;
 	margin-top: 82px;
-	font-size: 3.4em;
+	font-size: 3.2em;
 	position: absolute;
 	text-shadow: 2px 2px 2px #000000;
 	border: 2px solid #000000;
@@ -64,7 +64,7 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 147px;
-	margin-left: 737px;
+	margin-left: 730px;
 	margin-top: 50px;
 	font-size: .9em;
 	position: absolute;
@@ -74,14 +74,14 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	height: 92px;
 	
-	/*float: left;*/
+	float: left;
 }
 
 #gift {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #FF3A8C;
 	width: 167px;
-	margin-left: -102px;
+	margin-left: 0px;
 	margin-top: 493px;
 	font-size: 1.9em;
 	position: absolute;
@@ -91,27 +91,27 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	height: 73px;
 	
-	/*float: left;*/
+	float: left;
 }
 
 #logo {
 	font-family: 'Corben', Georgia, Times, serif;
 	color: #FF7F3F;
 	width: 30px;
-	margin-left: -180px;
+	margin-left: 0px;
 	margin-top: 48px;
 	font-size: 2.5em;
 	position: absolute;
 	text-shadow: 3px 3px 3px #000000;
 	
-	/*float: left;*/
+	float: left;
 }
 
 #logo_address {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: -102px;
+	margin-left: 0px;
 	margin-top: 190px;
 	font-size: .8em;
 	background-color: #FFFFFF;
@@ -127,10 +127,10 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: -125px;
+	margin-left: 0px;
 	margin-top: 600px;
 	font-size: .8em;
-	/*background-color: #FFFFFF;*/
+	/*background-color: #FFFFFF;
     /*border: 2px solid #000000; */
     /*outline:0; */
     height: 22px; 
@@ -252,48 +252,55 @@ a:link, a:visited {
 #app_link { 
     background-color:rgba(0,0,0,0.5);
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 
 }
 #fp_link {
 	background-color:rgba(0,0,0,0.5);
 	/*margin-left: -69px;*/
 	/*position: fixed;*/
-	width: 67px;
+	width: 50px;
+	height: 22px;
 }
 
 #br_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: -138px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 }
 
 #cd_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: -207px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 }
 
 #sp_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: -276px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 }
 
 #ls_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: 345px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 }
 
 #veg_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: 414px;*/
-	width: 67px;
+	width: 50px;
+	height: 22px;
     /*position: fixed;*/
 }
 
@@ -301,21 +308,24 @@ a:link, a:visited {
     background-color:rgba(0,0,0,0.5);
     /*margin-left: 483px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 }
 
 #alc_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: 552px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 }
 
 #ff_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: 621px;*/
     /*position: fixed;*/
-    width: 67px;
+    width: 50px;
+    height: 22px;
 
 }
 
@@ -333,11 +343,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -351,11 +361,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -368,11 +378,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -385,11 +395,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -402,11 +412,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -419,11 +429,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -436,11 +446,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -454,11 +464,11 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 90px;
+	margin-left: 200px;
 	margin-top: 165px;
 	position: absolute;
 	background-color: #000000;
-	width: 850px;
+	width: 675px;
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
@@ -534,6 +544,7 @@ a:link, a:visited {
 #talk {
 	width: 250px;
 	margin-left: 30px;
+	/*margin-top: 800px;*/
 	position: absolute;
 	font-size: 1.2em;
 }
@@ -575,7 +586,7 @@ h1 {
    position: absolute;
   text-align:center;
     margin-top: 280px;
-    margin-left: -75px;
+    margin-left: 30px;
     
 }
 
@@ -785,10 +796,13 @@ background:#fff;
 }
 
 .iform .itext {
-
-
+/*color: #000000;*/
+width: 150px;
 }
-
+.itexts {
+	width: 100px;
+	background:#FF0000;
+}
 
 .iform .itextarea{ 
 	height:100px; width: 250px; 
@@ -818,7 +832,7 @@ background:#fff;
 
 
 .admin_logout {
-	margin-left:750px;
+	margin-left:580px;
 	background:#efefef;
 	-webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
 	color: #000000 ;
@@ -830,10 +844,14 @@ background:#fff;
 
 
 #slidy-container {
-	height: 360px; 
-	width: 800px;
+	height: 460px; 
+	width: 655px;
 	overflow: hidden;
-	margin-top: 23px;
-	margin-left: 25px;
+	margin-top: 17px;
+	margin-left: 10px;
 
+}
+
+#dish_name{
+	color: #000000;
 }
