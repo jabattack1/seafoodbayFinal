@@ -573,6 +573,14 @@ a:link, a:visited {
 	font-size: 1.2em;
 }
 
+.map{
+	margin-left: 224px;
+	margin-top: 30px;
+	width: 415px;
+	height: 300px;
+	position: absolute;
+}
+
 h1 {
   color: #E44497;
   font-size: 5em;
