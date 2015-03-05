@@ -28,7 +28,8 @@ html, body {
 body {
   background: url() no-repeat;
   background-image: url("boat-colored.jpg");
- 	
+ /* background-width:900px;
+  height: 675px;*/
   /*background-size: cover;*/
   /*background-size: 100%;*/
   background-color: #FFFFFF;
@@ -41,6 +42,10 @@ body {
 
 /*background-position:center;*/
 
+}
+
+.player {
+	background-width:900px;
 }
 
 #banner {
