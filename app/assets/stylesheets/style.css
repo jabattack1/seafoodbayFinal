@@ -70,7 +70,7 @@ body {
 	color: #FF3A8C;
 	width: 147px;
 	margin-left: 730px;
-	margin-top: 50px;
+	margin-top: 45px;
 	font-size: .9em;
 	position: absolute;
 	text-shadow: 2px 2px 2px #000000;
@@ -117,7 +117,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-left: 0px;
-	margin-top: 190px;
+	margin-top: 188px;
 	font-size: .9em;
 	background-color: #FFFFFF;
     border: 2px solid #000000; 
@@ -244,7 +244,7 @@ a:link, a:visited {
     display: block;
     font-weight: bold;
     color: #ffffff;
-    background-color: #F26400;
+    background-color: #51C2FF;
     width: 100px;
     text-align: center;
     padding: 8px;
