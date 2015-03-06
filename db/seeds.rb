@@ -20,7 +20,7 @@ Menu.create({course: "Appetizers", dish_name: "Steamed Littleneck Clams(12)", de
 Menu.create({course: "Appetizers", dish_name: "Clams Casino(4)", description: "", price: "$4.99"})
 Menu.create({course: "Appetizers", dish_name: "Stuffed Mushrooms Caps with Crab Meat(5)", description: "", price: "$4.99"})
 Menu.create({course: "Appetizers", dish_name: "Stuffed Mushrooms/Clam Casino Combo", description: "", price: "$4.99"})
-Menu.create({course: "Appetizers", dish_name: "Cocktail Shrimp (10 Large)", description: "w/ Cocktail Sauce & Lemon Wedge", price: "$4.25"})
+Menu.create({course: "Appetizers", dish_name: "Cocktail Shrimp (10 Large)", description: "w/ Cocktail Sauce & Lemon Wedge", price: "$5.25"})
 Menu.create({course: "Appetizers", dish_name: "Cocktail Shrimp (6 Jumbo)", description: "w/ Cocktail Sauce & Lemon Wedge", price: "$7.25"})
 Menu.create({course: "Appetizers", dish_name: "Steamed Mussel(2LB)", description: "Red or Garlic and Butter", price: "$19.99"})
 Menu.create({course: "Appetizers", dish_name: "Jumbo Whole Wings(ea)", description: "", price: "$1.50"})
@@ -88,7 +88,7 @@ Menu.create({course: "Fried Platters", dish_name: "Fried Boneless Chicken Tender
 Menu.create({course: "Fried Platters", dish_name: "Shrimp Feast Dinner", description: "1/4 lb. Shrimp Salad, 2 Fried Srimp, 2 Cooked Shrimp, 1 Fried Stuffed Shrimp, 1 Shrimp Roll", price: "$15.99"})
 Menu.create({course: "Fried Platters", dish_name: "Soft Shell Crab(2)", description: "", price: "$15.99"})
 Menu.create({course: "Fried Platters", dish_name: "Whiting(1/2 lb.)", description: "", price: "$7.99"})
-Menu.create({course: "Fried Platters", dish_name: "Jumbo Whole Wings(3)", description: "", price: "$6.99"})
+Menu.create({course: "Fried Platters", dish_name: "Jumbo Whole Wings(3)", description: "", price: "$8.99"})
 Menu.create({course: "Fried Platters", dish_name: "Fried Chicken 4 PC. Platter", description: "", price: "$8.99"})
 
 Menu.create({course: "Broiled Platters", dish_name: "Snow Crab(1 lb.)", description: "", price: "$17.99"})
@@ -104,7 +104,7 @@ Menu.create({course: "Broiled Platters", dish_name: "Broiled Combo", description
 Menu.create({course: "Broiled Platters", dish_name: "Alaskan King Crab Legs(1 lb.)", description: "", price: "$29.99"})
 Menu.create({course: "Broiled Platters", dish_name: "Cajun Catfish", description: "", price: "$11.99"})
 Menu.create({course: "Broiled Platters", dish_name: "Orange Roughy", description: "", price: "$12.99"})
-Menu.create({course: "Broiled Platters", dish_name: "Seafood Combo Over Pasta", description: "Mussels, Shrimp, Scallop, Clams with Roll and Butter (Choice: Spicy Red Sauce or Garlic White Sauce)", price: "$17.99"})
+Menu.create({course: "Broiled Platters", dish_name: "Seafood Combo Over Pasta", description: "Mussels, Shrimp, Scallop, Clams with Roll and Butter (Choice: Spicy Red Sauce or Garlic White Sauce)", price: "$19.99"})
 
 Menu.create({course: "Cold Platters", dish_name: "Fried Shrimp - Cooked Shrimp Combo", description: "", price: "$10.99"})
 Menu.create({course: "Cold Platters", dish_name: "Jumbo Cooked Cocktail Shrimp(6)", description: "", price: "$10.99"})
