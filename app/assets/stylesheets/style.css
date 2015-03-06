@@ -50,7 +50,7 @@ body {
 /*51C2FF*/
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
-	color: #000000;
+	color: #FFA100;
 	width: 650px;
 	margin-left: 222px;
 	margin-top: 83px;
@@ -71,20 +71,24 @@ body {
 }
 
 #banner_schedule {
-	font-family: 'Allan', Helvetica, Arial, sans-serif;
-	color: #FF3A8C;
-	width: 147px;
-	margin-left: 730px;
-	margin-top: 45px;
-	font-size: .9em;
+	font-family: 'Arvo', Georgia, Times, serif;
+	color: #000000;
+	width: 680px;
+	margin-left: 105px;
+	margin-top: 0px;
+	font-size: .8em;
 	position: absolute;
-	text-shadow: 2px 2px 2px #000000;
+	/*text-shadow: 2px 2px 2px #000000;*/
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
-	height: 92px;
-	
+	height: 17px;
+	padding-left:4px;
 	float: left;
+}
+
+#days {
+	/*color: #FFA100;*/
 }
 
 #gift {
@@ -106,36 +110,52 @@ body {
 
 #logo {
 	font-family: 'Corben', Georgia, Times, serif;
-	color: #F26400;
+	color: #FFA100;
 	width: 205px;
 	margin-left: 0px;
-	margin-top: 45px;
+	margin-top: 34px;
 	font-size: 2.5em;
 	position: absolute;
 	text-shadow: 1px 1px 1px #000000;
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
-	float: left;
+	/*float: left;*/
 	padding-left: 1px;
 	padding-right: 1px;
 	text-align: center;
 	padding-top:9px;
-	padding-bottom:1px;
-	line-height: 100%;
-	height: 89px;
+	/*padding-bottom:1px;*/
+	line-height: 93%;
+	height: 100px;
 }
 
+#web {
+	font-family: 'Arvo', Georgia, Times, serif;
+	color: #000000;
+	position: absolute;
+	width: 100px;
+	font-size: 12px;
+	margin-top: 128px;
+	margin-left: 45px;
+	text-shadow: 0px 0px 0px #000000;
+	/*padding-top:9px;*/
+	/*line-height: 100%;*/
+	/*padding-bottom: 10px;*/
+
+}
 #sea {
-	color: #F26400;
+	color: #FFA100;
 	text-shadow: 1px 1px 1px #000000;
 }
 
 #bay {
-	color: #F26400;
+	color: #FFA100;
 	text-shadow: 1px 1px 1px #000000;
+	/*line-height: 50%;*/
 	margin-top: -20px;
 }
+
 
 #logo_address {
 	border-radius: 5px 5px 5px 5px;
@@ -214,78 +234,78 @@ body {
 }*/
 
 #home_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #about_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #log_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #menu_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #contact_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #order_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #create_link:hover { 
-    color: #F26400;
+    color: #FFA100;
 }
 
 #fb_link:hover { 
     color: #F26400;
-    background-color: #D8CBCB;
+    background-color: #FFA100;
     border-top: 2px solid #000000;
     /*border:2px solid #000000;*/
 }
 
 #app_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #fp_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #br_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #cd_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #sp_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #ls_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #veg_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #sides_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #alc_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 }
 
 #ff_link:hover { 
-    color: #F9CB40;
+    color: #FFA100;
 
 }
 
