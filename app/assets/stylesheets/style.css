@@ -50,7 +50,7 @@ body {
 
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
-	color: #51C2FF;
+	color: #FF3A8C;
 	width: 650px;
 	margin-left: 222px;
 	margin-top: 82px;
@@ -149,12 +149,36 @@ body {
 #home_link {
 	/*color: #FF3A8C;*/
 	border-radius: 5px 5px 0px 0px;
-	/*width: 60px;*/
+	border-bottom: none;
 	/*float: left;*/
 }
 
+#about_link {
+	/*color: #FF3A8C;*/
+	border-top: none;
+	border-bottom: none;
+	/*float: left;*/
+}
+
+#menu_link {
+	/*color: #FF3A8C;*/
+	border-top: none;
+	border-bottom: none;
+	/*float: left;*/
+}
+
+
+#contact_link {
+	/*color: #FF3A8C;*/
+	border-top: none;
+	border-bottom: none;
+	/*float: left;*/
+}
+
+
 #fb_link {
 	border-radius: 0px 0px 5px 5px;
+	border-top: none;
 	/*position: fixed;*/
 }
 
@@ -165,37 +189,38 @@ body {
 }*/
 
 #home_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #about_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #log_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #menu_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #contact_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #order_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #create_link:hover { 
-    color: #F9CB40;
+    color: #F26400;
 }
 
 #fb_link:hover { 
-    color: #F9CB40;
-    background-color: #FFFFFF;
-    border:2px solid #000000;
+    color: #F26400;
+    background-color: #FAFFED;
+    border-top: 2px solid #000000;
+    /*border:2px solid #000000;*/
 }
 
 #app_link:hover { 
@@ -246,8 +271,10 @@ a:link, a:visited {
     color: #000000;
     /*background-color: #FFFFFF;*/
     /*border-style: solid;*/
-   /*border: 2px solid #000000;*/
-	background-color: #00D87E;
+   border: 2px solid #000000;
+	background-color: #FFFFFF;
+	border-bottom-width: 2px;
+	border-top-width: 2px;
     /*width: 100px;*/
     text-align: center;
     padding: 8px;
