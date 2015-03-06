@@ -8,11 +8,12 @@
 #page {
 	width:900px;
   height: 600px;
-  /*background-color:rgba(0,0,0,0.5);*/
+  /*max-width: 300px*/
+ 
    margin:0 auto;
    position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
-	position: absolute;
+	/*position: absolute;*/
 	top: 1%;
 	/*overflow-y: scroll;*/
 	/*transform: 			translateY(-50%);*/
@@ -63,8 +64,7 @@ body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("boat-colored.jpg");
- /* background-width:900px;
-  height: 675px;*/
+  
   /*background-size: cover;*/
   /*background-size: 100%;*/
   background-color: #FFFFFF;
@@ -213,7 +213,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-left: 0%;
-	margin-top: 67%;
+	margin-top: 66%;
 	font-size: .9em;
 	/*background-color: #FFFFFF;
     /*border: 2px solid #000000; */
@@ -229,7 +229,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-left: 83.5%;
-	margin-top: 67%;
+	margin-top: 66%;
 	font-size: .9em;
 	/*background-color: #FFFFFF;
     /*border: 2px solid #000000; */
