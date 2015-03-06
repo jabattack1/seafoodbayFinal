@@ -87,14 +87,14 @@ body {
 	color: #000000;
 	width: 167px;
 	margin-left: 0px;
-	margin-top: 493px;
-	font-size: 1.7em;
+	margin-top: 507px;
+	font-size: 1.5em;
 	position: absolute;
 	/*text-shadow: 1.5px 1.5px 1.5px #000000;*/
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
-	height: 70px;
+	height: 58px;
 	
 	float: left;
 }
@@ -118,11 +118,11 @@ body {
 	position: absolute;
 	margin-left: 0px;
 	margin-top: 190px;
-	font-size: .8em;
+	font-size: .9em;
 	background-color: #FFFFFF;
     border: 2px solid #000000; 
     outline:0; 
-    height: 62px; 
+    height: 70px; 
     width: 165px; 
     background-color: #FFFFFF;
     padding: 4px;
@@ -598,7 +598,7 @@ h1 {
   display: block;
    position: absolute;
   text-align:center;
-    margin-top: 280px;
+    margin-top: 290px;
     margin-left: 30px;
     
 }
