@@ -47,22 +47,27 @@ body {
 .player {
 	background-width:900px;
 }
-
+/*51C2FF*/
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
-	color: #51C2FF;
+	color: #FF2643;
 	width: 650px;
 	margin-left: 222px;
 	margin-top: 82px;
 	font-size: 3.2em;
 	position: absolute;
-	text-shadow: 2px 2px 2px #000000;
+	/*text-shadow: 2px 2px 2px #000000;*/
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
 	height: 60px;
 	max-height: 100px;
 	/*float: left;*/
+}
+
+#ice {
+	color: #51C2FF;
+	text-shadow: 2px 2px 2px #000000;
 }
 
 #banner_schedule {
@@ -406,6 +411,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
+    border-radius: 5px 5px 5px 5px;
     
 }
 
@@ -424,6 +430,7 @@ a:link, a:visited {
 	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
+    border-radius: 5px 5px 5px 5px;
    
 
 }
@@ -441,7 +448,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -458,7 +465,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -475,7 +482,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -492,7 +499,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -509,7 +516,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -527,7 +534,7 @@ a:link, a:visited {
 	height: 405px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    
+    border-radius: 5px 5px 5px 5px;
 
 }
 
@@ -912,7 +919,12 @@ width: 150px;
 	overflow: hidden;
 	margin-top: 0px;
 	margin-left: 0px;
+	border-radius: 5px 5px 5px 5px;
 
+}
+
+#slides {
+	border-radius: 5px 5px 5px 5px;
 }
 
 #dish_name{
