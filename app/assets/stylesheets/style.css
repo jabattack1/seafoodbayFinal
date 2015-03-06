@@ -50,13 +50,13 @@ body {
 
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
-	color: #000000;
+	color: #21B1FF;
 	width: 650px;
 	margin-left: 222px;
 	margin-top: 82px;
 	font-size: 3.2em;
 	position: absolute;
-	/*text-shadow: 2px 2px 2px #000000;*/
+	text-shadow: 2px 2px 2px #000000;
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
@@ -88,13 +88,13 @@ body {
 	width: 167px;
 	margin-left: 0px;
 	margin-top: 493px;
-	font-size: 1.9em;
+	font-size: 1.7em;
 	position: absolute;
 	/*text-shadow: 1.5px 1.5px 1.5px #000000;*/
 	border: 2px solid #000000;
 	background-color: #FFFFFF;
 	border-radius: 5px 5px 5px 5px;
-	height: 73px;
+	height: 70px;
 	
 	float: left;
 }
