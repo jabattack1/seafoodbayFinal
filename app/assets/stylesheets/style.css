@@ -101,13 +101,13 @@ body {
 
 #logo {
 	font-family: 'Corben', Georgia, Times, serif;
-	color: #EA6100;
+	color: #F26400;
 	width: 30px;
 	margin-left: 0px;
 	margin-top: 48px;
 	font-size: 2.5em;
 	position: absolute;
-	/*text-shadow: 3px 3px 3px #000000;*/
+	text-shadow: 3px 3px 3px #000000;
 	
 	float: left;
 }
@@ -244,7 +244,7 @@ a:link, a:visited {
     display: block;
     font-weight: bold;
     color: #ffffff;
-    background-color: #EA6100;
+    background-color: #F26400;
     width: 100px;
     text-align: center;
     padding: 8px;
