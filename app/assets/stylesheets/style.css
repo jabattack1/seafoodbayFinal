@@ -243,8 +243,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
     display: block;
     font-weight: bold;
-    color: #FFFFFF;
-    background-color: #000000;
+    color: #000000;
+    background-color: #FFFFFF;
     width: 100px;
     text-align: center;
     padding: 8px;
