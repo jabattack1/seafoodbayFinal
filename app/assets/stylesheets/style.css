@@ -214,7 +214,23 @@ body {
 	position: absolute;
 	margin-left: 0px;
 	margin-top: 600px;
-	font-size: .8em;
+	font-size: .9em;
+	/*background-color: #FFFFFF;
+    /*border: 2px solid #000000; */
+    /*outline:0; */
+    height: 22px; 
+    width: 200px; 
+    /*background-color: #FFFFFF;*/
+    padding: 0px;
+}
+
+#cred {
+	border-radius: 5px 5px 5px 5px;
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-left: 753px;
+	margin-top: 600px;
+	font-size: .9em;
 	/*background-color: #FFFFFF;
     /*border: 2px solid #000000; */
     /*outline:0; */
