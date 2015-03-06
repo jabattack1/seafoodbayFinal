@@ -8,6 +8,7 @@
 #page {
 	width:900px;
   height: 675px;
+  /*background-color:rgba(0,0,0,0.5);*/
    margin:0 auto;
    position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
@@ -17,10 +18,37 @@
 	/*transform: 			translateY(-50%);*/
 }
 
-#bgndVideo {
+#filler {
+width:900px;
+  height: 675px;
+  position: absolute;
+  z-index: -1;
+	background-color:rgba(0,0,0,0.1);
+}
+
+#top, #bottom, #left, #right {
+	background: #FFFFFF;
+	/*background-image: url("http://media-cdn.tripadvisor.com/media/photo-s/05/ef/20/ea/half-dozen-fresh-oysters.jpg");*/
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 178px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 100; right: 100;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+/*#bgndVideo {
 	width: 50%;
 	height: 50%;
-}
+}*/
 
 html, body {
   width: 100%;
@@ -33,6 +61,7 @@ html, body {
 
 body {
   background: url() no-repeat;
+  /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("boat-colored.jpg");
  /* background-width:900px;
   height: 675px;*/
@@ -58,8 +87,8 @@ body {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #000000;
 	width: 650px;
-	margin-left: 222px;
-	margin-top: 49px;
+	margin-left: 230px;
+	margin-top: 0px;
 	font-size: 3.2em;
 	position: absolute;
 	/*text-shadow: 2px 2px 2px #000000;*/
@@ -80,8 +109,8 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #000000;
 	width: 680px;
-	margin-left: 105px;
-	margin-top: 0px;
+	margin-left: 218px;
+	margin-top: 92px;
 	font-size: .8em;
 	position: absolute;
 	/*text-shadow: 2px 2px 2px #000000;*/
@@ -102,7 +131,7 @@ body {
 	color: #000000;
 	width: 167px;
 	margin-left: 20px;
-	margin-top: 507px;
+	margin-top: 468px;
 	font-size: 1.5em;
 	position: absolute;
 	/*text-shadow: 1.5px 1.5px 1.5px #000000;*/
@@ -165,16 +194,16 @@ body {
 
 #logo_address {
 	border-radius: 5px 5px 5px 5px;
-	font-family: 'Arvo', Georgia, Times, serif;
+	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	position: absolute;
-	margin-left: 20px;
-	margin-top: 145px;
-	font-size: .9em;
+	margin-left: 43px;
+	margin-top: 360px;
+	font-size: 1.0em;
 	background-color: #FFFFFF;
     border: 2px solid #000000; 
     outline:0; 
-    height: 70px; 
-    width: 160px; 
+    height: 75px; 
+    width: 115px; 
     background-color: #FFFFFF;
     padding: 4px;
 }
@@ -449,8 +478,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -468,8 +497,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -486,8 +515,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -503,8 +532,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -520,8 +549,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -537,8 +566,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -554,8 +583,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -572,8 +601,8 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 200px;
-	margin-top: 163px;
+	margin-left: 220px;
+	margin-top: 150px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -701,8 +730,8 @@ h1 {
   display: block;
    position: absolute;
   text-align:center;
-    margin-top: 260px;
-    margin-left: 50px;
+    margin-top: 151px;
+    margin-left: 45px;
     
 }
 
