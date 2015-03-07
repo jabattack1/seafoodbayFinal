@@ -49,8 +49,8 @@ width:900px;
 }*/
 
 html, body {
-  				width: 900%;
-                height: 670%;
+  				width: 900px;
+                height: 670px;
                 margin: 0;
                 padding: 0;
             }
