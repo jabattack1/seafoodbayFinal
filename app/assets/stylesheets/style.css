@@ -59,6 +59,7 @@ body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("BEAR.jpg");
+  background-size: 900px 670px;
  /* background-width:900px;
   height: 675px;*/
   /*background-size: cover;*/
@@ -67,7 +68,7 @@ body {
   background-position: center;
   font-family: Georgia, serif;
   /*position: absolute;*/
-  background-size: contain;
+  /*background-size: contain;*/
   background-repeat:no-repeat;
   background-attachment:fixed;
 
