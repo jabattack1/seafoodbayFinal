@@ -111,7 +111,7 @@ body {
 	position: absolute;
 	/*text-shadow: 2px 2px 2px #000000;*/
 	border: 2px solid #000000;
-	background-color: #FFFFFF;
+	background-color: #FFA100;
 	border-radius: 5px 5px 5px 5px;
 	height: 17px;
 	padding-left:4px;
@@ -132,7 +132,7 @@ body {
 	position: absolute;
 	/*text-shadow: 1.5px 1.5px 1.5px #000000;*/
 	border: 2px solid #000000;
-	background-color: #FFFFFF;
+	background-color: #FFA100;
 	border-radius: 5px 5px 5px 5px;
 	height: 58px;
 	
@@ -348,7 +348,7 @@ a:link, a:visited {
     /*background-color: #FFFFFF;*/
     /*border-style: solid;*/
    border: 2px solid #000000;
-	background-color: #FFFFFF;
+	background-color: #FFA100;
 	border-bottom-width: 2px;
 	border-top-width: 2px;
     /*width: 100px;*/
