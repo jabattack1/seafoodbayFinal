@@ -207,36 +207,43 @@ body {
     padding: 4px;
 }
 
-#copyright {
-	border-radius: 5px 5px 5px 5px;
-	font-family: 'Arvo', Georgia, Times, serif;
+#rights {
+	
+
+    font-family: 'Arvo', Georgia, Times, serif;
+	
+	color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 610px;
 	position: absolute;
-	margin-left: 20px;
-	margin-top: 600px;
-	font-size: .8em;
-	/*background-color: #FFFFFF;
-    /*border: 2px solid #000000; */
-    /*outline:0; */
-    height: 22px; 
-    width: 200px; 
-    /*background-color: #FFFFFF;*/
-    padding: 0px;
+	background-color: #000000;
+	height: 25px; 
+    width: 900px; 
+	/*border-style: solid;*/
+    background-color:rgba(0,0,0,0.2);
+    border-radius: 5px 5px 5px 5px;
 }
 
-#cred {
-	border-radius: 5px 5px 5px 5px;
-	font-family: 'Arvo', Georgia, Times, serif;
+#legal {
+	margin-top: 2px;
+	font-size: .01em;
+	padding: 1px;
 	position: absolute;
-	margin-left: 745px;
-	margin-top: 600px;
-	font-size: .8em;
-	/*background-color: #FFFFFF;
-    /*border: 2px solid #000000; */
-    /*outline:0; */
-    height: 22px; 
-    width: 200px; 
-    /*background-color: #FFFFFF;*/
-    padding: 0px;
+}
+
+#copyright {
+	margin-top: 5px;
+	font-size: .5em;
+	padding: 1px;
+	position: absolute;
+}
+#cred {
+	font-size: .5em;
+	margin-top: 5px;
+	margin-left: 765px;
+	padding: 1px;
+	position: absolute;
+	
 }
 
 
