@@ -208,7 +208,23 @@ body {
 	border-radius: 5px 5px 5px 5px;
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: 0px;
+	margin-left: 20px;
+	margin-top: 600px;
+	font-size: .8em;
+	/*background-color: #FFFFFF;
+    /*border: 2px solid #000000; */
+    /*outline:0; */
+    height: 22px; 
+    width: 200px; 
+    /*background-color: #FFFFFF;*/
+    padding: 0px;
+}
+
+#cred {
+	border-radius: 5px 5px 5px 5px;
+	font-family: 'Arvo', Georgia, Times, serif;
+	position: absolute;
+	margin-left: 745px;
 	margin-top: 600px;
 	font-size: .8em;
 	/*background-color: #FFFFFF;
@@ -265,78 +281,78 @@ body {
 }*/
 
 #home_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #about_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #log_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #menu_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #contact_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #order_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #create_link:hover { 
-    color: #FFA100;
+    color: #FFFFFF;
 }
 
 #fb_link:hover { 
     color: #F26400;
-    background-color: #FFA100;
+    background-color: #FFFFFF;
     border-top: 2px solid #000000;
     /*border:2px solid #000000;*/
 }
 
 #app_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #fp_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #br_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #cd_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #sp_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #ls_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #veg_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #sides_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #alc_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 }
 
 #ff_link:hover { 
-    color: #FFA100;
+    color: #FFDAD6;
 
 }
 
@@ -475,7 +491,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -494,7 +510,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -512,7 +528,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -529,7 +545,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -546,7 +562,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -563,7 +579,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -580,7 +596,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
@@ -598,7 +614,7 @@ a:link, a:visited {
 	font-size: .8em;
 	color: #FFFFFF;
 	margin-left: 220px;
-	margin-top: 108px;
+	margin-top: 143px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
