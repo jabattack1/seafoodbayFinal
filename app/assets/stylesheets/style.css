@@ -168,11 +168,12 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #000000;
 	position: absolute;
-	width: 100px;
+	width: 210px;
 	font-size: 12px;
 	margin-top: 94px;
-	margin-left: 45px;
+	margin-left: 1px;
 	text-shadow: 0px 0px 0px #000000;
+	text-align: center;
 	/*padding-top:9px;*/
 	/*line-height: 100%;*/
 	/*padding-bottom: 10px;*/
@@ -551,22 +552,6 @@ a:link, a:visited {
 
 }
 
-#account {
-	/*opacity: 0.4;*/
-	font-family: 'Arvo', Georgia, Times, serif;
-	font-size: .8em;
-	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
-	position: absolute;
-	background-color: #000000;
-	width: 675px;
-	height: 405px;
-	/*border-style: solid;*/
-    background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
-
-}
 
 #admin_account {
 	/*opacity: 0.4;*/
@@ -585,22 +570,6 @@ a:link, a:visited {
 
 }
 
-#log_in {
-	/*opacity: 0.4;*/
-	font-family: 'Arvo', Georgia, Times, serif;
-	font-size: .8em;
-	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
-	position: absolute;
-	background-color: #000000;
-	width: 675px;
-	height: 405px;
-	/*border-style: solid;*/
-    background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
-
-}
 
 #contact {
 	/*opacity: 0.4;*/
@@ -620,63 +589,6 @@ a:link, a:visited {
 }
 
 
-#order {
-	/*opacity: 0.4;*/
-	font-family: 'Arvo', Georgia, Times, serif;
-	font-size: .8em;
-	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
-	position: absolute;
-	background-color: #000000;
-	width: 675px;
-	height: 405px;
-	/*border-style: solid;*/
-    background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
-
-}
-
-
-
-
-
-/*textarea {
-    border: 0 none white;
-    overflow: hidden;
-    padding: 0;
-    outline: none;
-    background-color: #D0D0D0;
-    resize: none;
-}*/
-/*div {
-
-	width: 300;
-	padding: 25px;
-	border: 25px solid navy;
-	margin: 25px;
-}*/
-
-/*.dwelling {
-  background: url(../images/house.png) no-repeat;
-  background-size: cover;
-  height: 121px;
-  position: absolute;
-  top: 446px;
-  left: 900px;
-  width: 211px;
-}
-
-#waldo {
-  background: url(../images/waldo.gif) no-repeat;
-  background-size: 100% 100%;
-  top: 521px;
-  height: 45px;
-  position: absolute;
-  left: 889px;
-  width: 31px;
-  z-index: -10;
-}*/
 
 #beer1 {
 	width: 220px;
