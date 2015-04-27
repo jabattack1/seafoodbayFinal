@@ -58,14 +58,14 @@ html, body {
 body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
-  background-image: url("BEAR.jpg");
-  
+  /*background-image: url("BEAR.jpg");*/
+
   background-size: 900px 670px;
  /* background-width:900px;
   height: 675px;*/
   /*background-size: cover;*/
   /*background-size: 100%;*/
-  /*background-color: #FFFFFF;*/
+  background-color: #FF9900;
   background-position: center;
   font-family: Georgia, serif;
   /*position: absolute;*/
@@ -238,7 +238,7 @@ body {
 
     font-family: 'Arvo', Georgia, Times, serif;
 	
-	color: #FFFFFF;
+	color: #000000;
 	margin-left: 0px;
 	margin-top: 585px;
 	position: absolute;
