@@ -7,20 +7,20 @@
 
 #page {
 	width:900px;
-  height: 670px;
+  	height: 670px;
   /*background-color:rgba(0,0,0,0.5);*/
-   margin:0 auto;
-   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+   	margin:0 auto;
+   	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
 	position: absolute;
-	top: 1%;
+	top: 0%;
 	/*overflow-y: scroll;*/
 	/*transform: 			translateY(-50%);*/
 }
 
 #filler {
-width:900px;
-  height: 670px;
+	width:900px;
+  	height: 670px;
 	background-color:rgba(0,0,0,0.5);
 }
 
@@ -59,6 +59,7 @@ body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("BEAR.jpg");
+  
   background-size: 900px 670px;
  /* background-width:900px;
   height: 675px;*/
@@ -79,20 +80,40 @@ body {
 .player {
 	background-width:900px;
 }
+
+#down_banner {
+	width: 209px;
+	height: 100%;
+	background-color:rgba(0,0,0,0);
+	position: absolute;
+	margin-left: 5px;
+	margin-top: 50px;
+}
+
+#cross_banner {
+	width: 675px;
+	height: 137px;
+	background-color:rgba(0,0,0,0);
+	position: absolute;
+	margin-left: 214px;
+	margin-top: 50px;
+}
 /*51C2FF*/
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #000000;
-	width: 650px;
-	margin-left: 230px;
-	margin-top: 0px;
-	font-size: 3.2em;
+	width: 674px;
+	margin-left: -1px;
+	margin-top: 25px;
+	font-size: 3.3em;
 	position: absolute;
+	/*display: table-cell;*/
+	padding-top: 15px;
 	/*text-shadow: 2px 2px 2px #000000;*/
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	background-color: #FFFFFF;
-	border-radius: 5px 5px 5px 5px;
-	height: 60px;
+	/*border-radius: 5px 5px 5px 5px;*/
+	height: 85px;
 	max-height: 100px;
 	/*float: left;*/
 }
@@ -105,16 +126,17 @@ body {
 #banner_schedule {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #000000;
-	width: 550px;
-	margin-left: 265px;
-	margin-top: 92px;
+	width: 674px;
+	margin-left: -1px;
+	margin-top: 112px;
 	font-size: .7em;
 	position: absolute;
+	padding-top: 5px;
 	/*text-shadow: 2px 2px 2px #000000;*/
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	background-color: #FF8300;
-	border-radius: 5px 5px 5px 5px;
-	height: 17px;
+	/*border-radius: 5px 5px 5px 5px;*/
+	height: 17.5px;
 	/*padding-left:24px;*/
 	text-align: center;
 	/*padding - top: 4px;*/
@@ -128,16 +150,17 @@ body {
 #gift {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #000000;
-	width: 167px;
-	margin-left: 20px;
-	margin-top: 464px;
-	font-size: 1.5em;
+	width: 207px;
+	margin-left: 0px;
+	margin-top: 401px;
+	font-size: 1.7em;
 	position: absolute;
+	padding-top: 13px;
 	/*text-shadow: 1.5px 1.5px 1.5px #000000;*/
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	background-color: #FF8300;
-	border-radius: 5px 5px 5px 5px;
-	height: 58px;
+	/*border-radius: 5px 5px 5px 5px;*/
+	height: 76px;
 	
 	float: left;
 }
@@ -148,17 +171,17 @@ body {
 	width: 205px;
 	margin-left: 0px;
 	margin-top: 0px;
-	font-size: 2.5em;
+	font-size: 2.4em;
 	position: absolute;
 	text-shadow: 1px 1px 1px #000000;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	background-color: #FFFFFF;
-	border-radius: 5px 5px 5px 5px;
+	/*border-radius: 5px 5px 5px 5px;*/
 	/*float: left;*/
 	padding-left: 1px;
 	padding-right: 1px;
 	text-align: center;
-	padding-top:9px;
+	padding-top:10px;
 	/*padding-bottom:1px;*/
 	line-height: 93%;
 	height: 100px;
@@ -193,17 +216,18 @@ body {
 
 
 #logo_address {
-	border-radius: 5px 5px 5px 5px;
+	/*border-radius: 5px 5px 5px 5px;*/
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
-	margin-left: 23px;
-	margin-top: 360px;
+	margin-left: 0px;
+	margin-top: 299px;
 	font-size: .9em;
 	background-color: #FFFFFF;
-    border: 2px solid #000000; 
+    border: 1px solid #000000; 
+    padding-top: 25px;
     /*outline:0; */
-    height: 70px; 
-    width: 160px; 
+    height: 100px; 
+    width: 207px; 
     background-color: #FFFFFF;
     /*padding: 4px;*/
     text-align: center;
@@ -216,35 +240,36 @@ body {
 	
 	color: #FFFFFF;
 	margin-left: 0px;
-	margin-top: 605px;
+	margin-top: 585px;
 	position: absolute;
-	background-color: #000000;
-	height: 25px; 
+	/*background-color: #000000;*/
+	height: 55px; 
     width: 900px; 
 	/*border-style: solid;*/
-    background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
+    /*background-color:rgba(0,0,0,0.5);*/
+    /*border-radius: 5px 5px 5px 5px;*/
 }
 
 #legal {
-	margin-top: 2px;
+	margin-top: -20px;
 	font-size: .01em;
-	padding: 1px;
+	margin-left:8px;
+	/*padding: 5px;*/
 	position: absolute;
 }
 
 #copyright {
-	margin-top: 5px;
-	font-size: .5em;
-	padding: 1px;
-	margin-left: 2px;
+	margin-top: -28px;
+	font-size: .7em;
+	padding: 0px;
+	margin-left: 5px;
 	position: absolute;
 }
 #cred {
-	font-size: .5em;
-	margin-top: 5px;
-	margin-left: 765px;
-	padding: 1px;
+	font-size:.7em;
+	margin-top: -28px;
+	margin-left: 717px;
+	/*padding: 5px;*/
 	position: absolute;
 	
 }
@@ -252,13 +277,15 @@ body {
 
 
 #home_link {
+	width:191px;
 	/*color: #FF3A8C;*/
-	border-radius: 5px 5px 0px 0px;
+	/*border-radius: 5px 5px 0px 0px;*/
 	border-bottom: none;
 	/*float: left;*/
 }
 
 #about_link {
+	margin-top: 0px;
 	/*color: #FF3A8C;*/
 	border-top: none;
 	border-bottom: none;
@@ -266,6 +293,7 @@ body {
 }
 
 #menu_link {
+	margin-top: 0px;
 	/*color: #FF3A8C;*/
 	border-top: none;
 	border-bottom: none;
@@ -274,6 +302,7 @@ body {
 
 
 #contact_link {
+	margin-top: 0px;
 	/*color: #FF3A8C;*/
 	border-top: none;
 	border-bottom: none;
@@ -282,7 +311,8 @@ body {
 
 
 #fb_link {
-	border-radius: 0px 0px 5px 5px;
+	margin-top: 0px;
+	/*border-radius: 0px 0px 5px 5px;*/
 	border-top: none;
 	/*position: fixed;*/
 }
@@ -373,17 +403,21 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
     display: block;
     font-weight: bold;
+    font-size: 19px;
     color: #000000;
     /*background-color: #FFFFFF;*/
     /*border-style: solid;*/
-   border: 2px solid #000000;
+    border: 1px solid #000000;
 	background-color: #FF8300;
-	border-bottom-width: 2px;
-	border-top-width: 2px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	margin-left: -48px;
+	margin-top: -34px;
     /*width: 100px;*/
     text-align: center;
     padding: 8px;
     text-decoration: none;
+    /*position:absolute;*/
     /*text-shadow: 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black;*/
    
     /*float: left;*/
@@ -391,102 +425,123 @@ a:link, a:visited {
 
 #app_link { 
     background-color:rgba(0,0,0,0.5);
-    /*position: fixed;*/
+    position: absolute;
     border: none;
     color: #FFFFFF;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 10px;
 
 }
 #fp_link {
 	background-color:rgba(0,0,0,0.5);
-	/*margin-left: -69px;*/
-	/*position: fixed;*/
-	color: #FFFFFF;
-	 border: none;
-	width: 49px;
-	height: 22px;
+    position: absolute;
+    border: none;
+    color: #FFFFFF;
+    width: 49px;
+    height: 22px;
+    margin-top: 0px;
+    margin-left: 65px;
+    font-size: 10px;
 }
 
 #br_link { 
     background-color:rgba(0,0,0,0.5);
-    /*margin-left: -138px;*/
-    /*position: fixed;*/
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 130px;
+    font-size: 10px;
 }
 
 #cd_link { 
     background-color:rgba(0,0,0,0.5);
-    /*margin-left: -207px;*/
-    /*position: fixed;*/
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 195px;
+    font-size: 10px;
 }
 
 #sp_link { 
-    background-color:rgba(0,0,0,0.5);
-    /*margin-left: -276px;*/
-    /*position: fixed;*/
+   background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 260px;
+    font-size: 10px;
 }
 
 #ls_link { 
-    background-color:rgba(0,0,0,0.5);
-    /*margin-left: 345px;*/
-    /*position: fixed;*/
+   background-color:rgba(0,0,0,0.5);
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 325px;
+    font-size: 10px;
 }
 
 #veg_link { 
     background-color:rgba(0,0,0,0.5);
-    /*margin-left: 414px;*/
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
-	width: 49px;
-	height: 22px;
-    /*position: fixed;*/
+    width: 49px;
+    height: 22px;
+    margin-top: 0px;
+    margin-left: 390px;
+    font-size: 10px;
 }
 
 #sides_link { 
     background-color:rgba(0,0,0,0.5);
-    /*margin-left: 483px;*/
-    /*position: fixed;*/
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 455px;
+    font-size: 10px;
 }
 
 #alc_link { 
     background-color:rgba(0,0,0,0.5);
     /*margin-left: 552px;*/
-    /*position: fixed;*/
+    position: absolute;
     color: #FFFFFF;
      border: none;
     width: 49px;
     height: 22px;
+    margin-top: 0px;
+    margin-left: 520px;
+    font-size: 10px;
 }
 
 #ff_link { 
     background-color:rgba(0,0,0,0.5);
-    /*margin-left: 621px;*/
-    /*position: fixed;*/
+    position: absolute;
+    border: none;
     color: #FFFFFF;
-     border: none;
     width: 49px;
     height: 22px;
-
+    margin-top: 0px;
+    margin-left: 585px;
+    font-size: 10px;
 }
 
 
@@ -503,15 +558,15 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
+	margin-left: 214px;
+	margin-top: 187px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
-	height: 405px;
+	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
+    /*border-radius: 5px 5px 5px 5px;*/
     
 }
 
@@ -522,15 +577,15 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
+	margin-left: 214px;
+	margin-top: 187px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
 	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
+    /*border-radius: 5px 5px 5px 5px;*/
    
 
 }
@@ -540,15 +595,15 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
+	margin-left: 214px;
+	margin-top: 187px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
-	height: 405px;
+	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
+    /*border-radius: 5px 5px 5px 5px;*/
 
 }
 
@@ -558,15 +613,15 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
+	margin-left: 214px;
+	margin-top: 187px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
-	height: 405px;
+	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
+    /*border-radius: 5px 5px 5px 5px;*/
 
 }
 
@@ -576,15 +631,15 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 220px;
-	margin-top: 143px;
+	margin-left: 214px;
+	margin-top: 187px;
 	position: absolute;
 	background-color: #000000;
 	width: 675px;
-	height: 405px;
+	height: 380px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
-    border-radius: 5px 5px 5px 5px;
+    /*border-radius: 5px 5px 5px 5px;*/
 
 }
 
@@ -619,15 +674,15 @@ a:link, a:visited {
 	margin-left: 30px;
 	/*margin-top: 800px;*/
 	position: absolute;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 #hours { 
 	width: 250px;
 	margin-left: 30px;
-	margin-top: 270px;
+	margin-top: 240px;
 	position: absolute;
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
 
 #address { 
