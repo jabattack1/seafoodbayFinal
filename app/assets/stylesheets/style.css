@@ -58,7 +58,7 @@ html, body {
 body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
-  background-image: url("http://www.crvdmedia.com/crvd/wp-content/uploads/2013/02/Wood_Background.jpg");
+  background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/Wood_Background_zpslocvf8nm.jpg");
 
   background-size: 100% 100%;
  /* background-width:900px;
@@ -234,9 +234,7 @@ body {
 }
 
 #rights {
-	
-
-    font-family: 'Arvo', Georgia, Times, serif;
+	font-family: 'Arvo', Georgia, Times, serif;
 	
 	color: #000000;
 	margin-left: 0px;
@@ -670,7 +668,7 @@ a:link, a:visited {
 }
 
 #talk {
-	width: 250px;
+	width: 450px;
 	margin-left: 30px;
 	/*margin-top: 800px;*/
 	position: absolute;
