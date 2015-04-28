@@ -701,7 +701,7 @@ a:link, a:visited {
 #talk {
 	width: 700px;
 	margin-left: 30px;
-	/*margin-top: 800px;*/
+	margin-top: 50px;
 	position: absolute;
 	font-size: 1.1em;
 }
