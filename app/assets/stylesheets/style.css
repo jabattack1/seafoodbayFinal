@@ -58,15 +58,15 @@ html, body {
 body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
-  background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/clipart%20fish_zpsyovlfk7x.gif");
+  background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/Bubbles_zps5wxj8thw.jpg");
 
-  background-size: 900px 670px;
+  background-size: 100% 100%;
  /* background-width:900px;
   height: 675px;*/
-  /*background-size: cover;*/
+  background-size: cover;
   /*background-size: 100%;*/
   background-color: #FFFFFF;
-  background-size: 100% auto;
+  /*background-size: 100% auto;*/
   font-family: Georgia, serif;
   /*position: absolute;*/
   /*background-size: contain;*/
