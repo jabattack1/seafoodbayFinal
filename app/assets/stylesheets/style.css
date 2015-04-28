@@ -91,7 +91,7 @@ body {
 }
 
 #cross_banner {
-	width: 100%;
+	width: 957px;
 	height: 182px;
 	background-color:rgba(0,0,0,0.5);
 	position: absolute;
@@ -610,7 +610,7 @@ a:link, a:visited {
 	margin-top: 184px;
 	position: absolute;
 	background-color: #000000;
-	width: 1037px;
+	width: 1036px;
 	height: 487px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
