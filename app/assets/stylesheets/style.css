@@ -58,21 +58,21 @@ html, body {
 body {
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
-  /*background-image: url("BEAR.jpg");*/
+  background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/clipart%20fish_zpsyovlfk7x.gif");
 
   background-size: 900px 670px;
  /* background-width:900px;
   height: 675px;*/
   /*background-size: cover;*/
   /*background-size: 100%;*/
-  background-color: #FF9900;
-  background-position: center;
+  background-color: #FFFFFF;
+  background-size: 100% auto;
   font-family: Georgia, serif;
   /*position: absolute;*/
   /*background-size: contain;*/
   /*background-repeat:no-repeat;*/
   background-attachment:fixed;
-
+  /*background-position:fixed; top:0; left:0; width:100%; height:100%;*/
 /*background-position:center;*/
 
 }
