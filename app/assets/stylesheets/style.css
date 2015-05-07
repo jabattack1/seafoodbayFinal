@@ -1,5 +1,3 @@
-
-
 /*@font-face {
   font-family: 'Mistral';
   src: url(../fonts/mistral.woff);
@@ -7,19 +5,19 @@
 
 #page {
 	/*width:900px;
-  	height: 670px;*/
+  	height: 670px;
   /*background-color:rgba(0,0,0,0.5);*/
-   	/*margin:0 auto;*/
+   	/*margin:0 auto;
    	position: absolute;
   	top: 0; left: 0; bottom: 0; right: 0;
 	position: absolute;
-	top: 0%;
+	top: 0%;*/
 	/*overflow-y: scroll;*/
 	/*transform: 			translateY(-50%);*/
 }
 
 #filler {
-	width:100%;
+	width:900px;
   	height: 670px;
 	background-color:rgba(0,0,0,0.5);
 }
@@ -49,21 +47,23 @@
 }*/
 
 html, body {
-  				width: 900px;
-                height: 670px;
-                margin: 0;
-                padding: 0;
+  			
             }
 
 body {
+	width:900px;
+  	height: 650px;
+    margin: 0 auto;
+    padding: 0;
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/Wood_Background_zpslocvf8nm.jpg");
-
+  position: relative;
   background-size: 100% 100%;
+  background-position: center;
  /* background-width:900px;
   height: 675px;*/
-  background-size: cover;
+  /*background-size: cover;*/
   /*background-size: 100%;*/
   background-color: #FFFFFF;
   /*background-size: 100% auto;*/
@@ -71,60 +71,50 @@ body {
   /*position: absolute;*/
   /*background-size: contain;*/
   /*background-repeat:no-repeat;*/
-  background-attachment:fixed;
+  background-attachment:scroll;
   /*background-position:fixed; top:0; left:0; width:100%; height:100%;*/
 /*background-position:center;*/
 
 }
 
-/*.player {
-	background-width:100%;
-}*/
+.player {
+	background-width:900px;
+}
 
 #down_banner {
-	width: 200px;
+	width: 209px;
 	height: 100%;
-	background-color:rgba(0,0,0,0.5);
+	background-color:rgba(0,0,0,0);
 	position: absolute;
-	margin-left: 0px;
-	margin-top: 0px;
+	margin-left: 5px;
+	margin-top: 35px;
 }
 
 #cross_banner {
-	width: 957px;
-	height: 182px;
-	background-color:rgba(0,0,0,0.5);
+	width: 675px;
+	height: 137px;
+	background-color:rgba(0,0,0,0);
 	position: absolute;
-	margin-left: 0px;
-	margin-top: 0px;
+	margin-left: 214px;
+	margin-top: 35px;
 }
-
-/*#bottom_banner {
-	width: 882px;
-	height: 150px;
-	background-color:rgba(0,0,0,0.5);
-	border: 0px solid #000000;
-	position: absolute;
-	margin-left: 0px;
-	margin-top: 467px;
-}*/
 /*51C2FF*/
 #banner {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #000000;
-	width: 957px;
-	margin-left: 306px;
-	margin-top: 0px;
-	font-size: 4.5em;
+	width: 674px;
+	margin-left: -1px;
+	margin-top: 25px;
+	font-size: 3.3em;
 	position: absolute;
 	/*display: table-cell;*/
-	padding-top: 32px;
+	padding-top: 15px;
 	/*text-shadow: 2px 2px 2px #000000;*/
 	border: 1px solid #000000;
 	background-color: #FFFFFF;
 	/*border-radius: 5px 5px 5px 5px;*/
-	height: 108px;
-	/*max-height: 100px;*/
+	height: 85px;
+	max-height: 100px;
 	/*float: left;*/
 }
 
@@ -136,17 +126,17 @@ body {
 #banner_schedule {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #000000;
-	width: 957px;
-	margin-left: 306px;
-	margin-top: 141px;
-	font-size: 1em;
+	width: 674px;
+	margin-left: -1px;
+	margin-top: 112px;
+	font-size: .7em;
 	position: absolute;
-	padding-top: 11px;
+	padding-top: 5px;
 	/*text-shadow: 2px 2px 2px #000000;*/
 	border: 1px solid #000000;
 	background-color: #FF8300;
 	/*border-radius: 5px 5px 5px 5px;*/
-	height: 30px;
+	height: 17.5px;
 	/*padding-left:24px;*/
 	text-align: center;
 	/*padding - top: 4px;*/
@@ -160,72 +150,51 @@ body {
 #gift {
 	font-family: 'Allan', Helvetica, Arial, sans-serif;
 	color: #000000;
-	width: 228px;
+	width: 167px;
 	margin-left: 0px;
-	margin-top: 529px;
-	font-size: 1.7em;
+	margin-top: 401px;
+	font-size: 1.6em;
 	position: absolute;
-	padding-top: 13px;
+	padding-top: 22px;
 	/*text-shadow: 1.5px 1.5px 1.5px #000000;*/
 	border: 1px solid #000000;
 	background-color: #FF8300;
 	/*border-radius: 5px 5px 5px 5px;*/
-	height: 101px;
+	height: 89px;
 	
 	float: left;
 }
 
-/*#white {
-	width: 207px;
-	height: 150px;
-	background-color: #FFFFFF;
-	border: 1px solid #000000;
-	position: absolute;
-	margin-left: 0px;
-	margin-top: 0px;
-}
-
-#orange {
-	width: 675px;
-	height: 150px;
-	background-color: #FF8300;
-	border: 1px solid #000000;
-	position: absolute;
-	margin-left: 207px;
-	margin-top: 0px;
-}*/
-
-
 #logo {
 	font-family: 'Corben', Georgia, Times, serif;
 	color: #FF8300;
-	width: 305px;
-	height: 159px;
+	width: 205px;
 	margin-left: 0px;
-	margin-top: -25px;
-	font-size: 3.4em;
+	margin-top: 0px;
+	font-size: 2.4em;
 	position: absolute;
 	text-shadow: 1px 1px 1px #000000;
 	border: 1px solid #000000;
 	background-color: #FFFFFF;
 	/*border-radius: 5px 5px 5px 5px;*/
 	/*float: left;*/
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-left: 1px;
+	padding-right: 1px;
 	text-align: center;
-	padding-top:22px;
+	padding-top:10px;
 	/*padding-bottom:1px;*/
 	line-height: 93%;
+	height: 100px;
 }
 
 #web {
 	font-family: 'Arvo', Georgia, Times, serif;
 	color: #000000;
 	position: absolute;
-	width: 250px;
-	font-size: 14px;
-	margin-top: 125px;
-	margin-left: 27px;
+	width: 210px;
+	font-size: 10.5px;
+	margin-top: 94px;
+	margin-left: 1px;
 	text-shadow: 0px 0px 0px #000000;
 	text-align: center;
 	/*padding-top:9px;*/
@@ -251,14 +220,14 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	position: absolute;
 	margin-left: 0px;
-	margin-top: 426px;
-	font-size: 1em;
+	margin-top: 299px;
+	font-size: .8em;
 	background-color: #FFFFFF;
     border: 1px solid #000000; 
-    padding-top: 11px;
+    padding-top: 20px;
     /*outline:0; */
-    height: 90px; 
-    width: 228px; 
+    height: 80px; 
+    width: 167px; 
     background-color: #FFFFFF;
     /*padding: 4px;*/
     text-align: center;
@@ -269,44 +238,47 @@ body {
 	
 	color: #000000;
 	margin-left: 0px;
-	margin-top: 648px;
+	margin-top: 550px;
 	position: absolute;
 	/*background-color: #000000;*/
-	height: 55px; 
-    width: 250px; 
+	height: 25px; 
+    width: 900px; 
 	/*border-style: solid;*/
     /*background-color:rgba(0,0,0,0.5);*/
     /*border-radius: 5px 5px 5px 5px;*/
 }
 
 #legal {
-	margin-top: 0px;
+	margin-top: -20px;
 	font-size: .01em;
 	margin-left:8px;
 	/*padding: 5px;*/
 	position: absolute;
+	color:white;
 }
 
 #copyright {
-	margin-top: -34px;
-	font-size: .7em;
+	margin-top: -28px;
+	font-size: .4em;
 	padding: 0px;
-	margin-left: 8px;
+	margin-left: 5px;
 	position: absolute;
+	color:white;
 }
 #cred {
-	font-size:.7em;
-	margin-top: -22px;
-	margin-left: 8px;
+	font-size:.4em;
+	margin-top: -28px;
+	margin-left: 750px;
 	/*padding: 5px;*/
 	position: absolute;
+	color:white;
 	
 }
 
 
 
 #home_link {
-	/*width:191px;*/
+	/*width:0px;*/
 	/*color: #FF3A8C;*/
 	/*border-radius: 5px 5px 0px 0px;*/
 	border-bottom: none;
@@ -432,7 +404,7 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
     display: block;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 15px;
     color: #000000;
     /*background-color: #FFFFFF;*/
     /*border-style: solid;*/
@@ -441,10 +413,10 @@ a:link, a:visited {
 	border-bottom-width: 1px;
 	border-top-width: 1px;
 	margin-left: -48px;
-	margin-top: 12px;
-    width: 200px;
+	margin-top: -34px;
+    width: 150px;
     text-align: center;
-    padding: 14px;
+    padding: 8.5px;
     text-decoration: none;
     /*position:absolute;*/
     /*text-shadow: 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black, 0 0 1.5px black;*/
@@ -457,11 +429,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 45px;
+    height: 12px;
     margin-top: 0px;
     margin-left: 0px;
-    font-size: 10px;
+    font-size: 9px;
 
 }
 #fp_link {
@@ -469,11 +441,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 60px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 104px;
-    font-size: 10px;
+    margin-left: 62px;
+    font-size: 9px;
 }
 
 #br_link { 
@@ -481,11 +453,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 68px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 208px;
-    font-size: 10px;
+    margin-left: 139px;
+    font-size: 9px;
 }
 
 #cd_link { 
@@ -493,23 +465,23 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 58px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 312px;
-    font-size: 10px;
+    margin-left: 224px;
+    font-size: 9px;
 }
 
 #sp_link { 
-    background-color:rgba(0,0,0,0.5);
+   background-color:rgba(0,0,0,0.5);
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 40px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 416px;
-    font-size: 10px;
+    margin-left: 299px;
+    font-size: 9px;
 }
 
 #ls_link { 
@@ -517,11 +489,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 64px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 520px;
-    font-size: 10px;
+    margin-left: 356px;
+    font-size: 9px;
 }
 
 #veg_link { 
@@ -529,11 +501,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 45px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 624px;
-    font-size: 10px;
+    margin-left: 437px;
+    font-size: 9px;
 }
 
 #sides_link { 
@@ -541,11 +513,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 76px;
-    height: 10px;
+    width: 35px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 728px;
-    font-size: 10px;
+    margin-left: 499px;
+    font-size: 9px;
 }
 
 #alc_link { 
@@ -554,11 +526,11 @@ a:link, a:visited {
     position: absolute;
     color: #FFFFFF;
      border: none;
-    width: 76px;
-    height: 10px;
+    width: 47px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 832px;
-    font-size: 10px;
+    margin-left: 551px;
+    font-size: 9px;
 }
 
 #ff_link { 
@@ -566,11 +538,11 @@ a:link, a:visited {
     position: absolute;
     border: none;
     color: #FFFFFF;
-    width: 58px;
-    height: 10px;
+    width: 55px;
+    height: 12px;
     margin-top: 0px;
-    margin-left: 936px;
-    font-size: 10px;
+    margin-left: 615px;
+    font-size: 9px;
 }
 
 
@@ -587,12 +559,12 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 228px;
-	margin-top: 183px;
+	margin-left: 174px;
+	margin-top: 172px;
 	position: absolute;
 	background-color: #000000;
-	width: 1037px;
-	height: 487px;
+	width: 715px;
+	height: 403px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
     /*border-radius: 5px 5px 5px 5px;*/
@@ -606,16 +578,16 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 230px;
-	margin-top: 184px;
+	margin-left: 174px;
+	margin-top: 172px;
 	position: absolute;
 	background-color: #000000;
-	width: 1036px;
-	height: 487px;
+	width: 715px;
+	height: 403px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
     /*border-radius: 5px 5px 5px 5px;*/
-	/*margin-left: 306px;*/
+   
 
 }
 
@@ -624,12 +596,12 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 230px;
-	margin-top: 184px;
+	margin-left: 174px;
+	margin-top: 172px;
 	position: absolute;
 	background-color: #000000;
-	width: 1037px;
-	height: 487px;
+	width: 715px;
+	height: 403px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
     /*border-radius: 5px 5px 5px 5px;*/
@@ -642,12 +614,12 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 230px;
-	margin-top: 184px;
+	margin-left: 174px;
+	margin-top: 172px;
 	position: absolute;
 	background-color: #000000;
-	width: 1037px;
-	height: 487px;
+	width: 715px;
+	height: 403px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
     /*border-radius: 5px 5px 5px 5px;*/
@@ -660,12 +632,12 @@ a:link, a:visited {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size: .8em;
 	color: #FFFFFF;
-	margin-left: 230px;
-	margin-top: 184px;
+	margin-left: 174px;
+	margin-top: 172px;
 	position: absolute;
 	background-color: #000000;
-	width: 1037px;
-	height: 487px;
+	width: 715px;
+	height: 403px;
 	/*border-style: solid;*/
     background-color:rgba(0,0,0,0.5);
     /*border-radius: 5px 5px 5px 5px;*/
@@ -699,9 +671,9 @@ a:link, a:visited {
 }
 
 #talk {
-	width: 700px;
+	width: 600px;
 	margin-left: 30px;
-	margin-top: 54px;
+	/*margin-top: 800px;*/
 	position: absolute;
 	font-size: 1.1em;
 }
@@ -709,7 +681,7 @@ a:link, a:visited {
 #hours { 
 	width: 250px;
 	margin-left: 30px;
-	margin-top: 300px;
+	margin-top: 240px;
 	position: absolute;
 	font-size: 1.1em;
 }
@@ -725,16 +697,16 @@ a:link, a:visited {
 #phone { 
 	width: 250px;
 	margin-left: 30px;
-	margin-top: 215px;
+	margin-top: 150px;
 	position: absolute;
 	font-size: 1.2em;
 }
 
 .map{
-	margin-left: 374px;
+	margin-left: 224px;
 	margin-top: 30px;
-	width: 555px;
-	height: 410px;
+	width: 415px;
+	height: 300px;
 	position: absolute;
 }
 
@@ -1009,17 +981,17 @@ width: 150px;
 
 
 #slidy-container {
-	width: 1034px;
-	height: 487px;
+	height: 460px; 
+	width: 714px;
 	overflow: hidden;
 	margin-top: 0px;
 	margin-left: 0px;
-	border-radius: 5px 5px 5px 5px;
+	/*border-radius: 5px 5px 5px 5px;*/
 
 }
 
 #slides {
-	border-radius: 0px 0px 0px 0px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 #dish_name{
