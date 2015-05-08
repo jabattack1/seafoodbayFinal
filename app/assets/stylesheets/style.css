@@ -236,7 +236,7 @@ body {
 	font-family: 'Arvo', Georgia, Times, serif;
 	margin-top: 0px;
 	font-size: .4em;
-	width:200px;
+	/*width:200px;*/
 	/*padding: 0px;*/
 	margin-left: 5px;
 	position: absolute;
@@ -245,7 +245,7 @@ body {
 #cred {
 	font-family: 'Arvo', Georgia, Times, serif;
 	font-size:.4em;
-	width:170px;
+	/*width:170px;*/
 	margin-top: 0px;
 	margin-left: 750px;
 	/*padding: 5px;*/
