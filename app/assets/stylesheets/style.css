@@ -235,7 +235,7 @@ body {
 #copyright {
 	font-family: 'Arvo', Georgia, Times, serif;
 	margin-top: 0px;
-	font-size: .4em;
+	font-size: 9px;
 	/*width:200px;*/
 	/*padding: 0px;*/
 	margin-left: 5px;
@@ -244,7 +244,7 @@ body {
 }
 #cred {
 	font-family: 'Arvo', Georgia, Times, serif;
-	font-size:.4em;
+	font-size:9px;
 	/*width:170px;*/
 	margin-top: 0px;
 	margin-left: 750px;
