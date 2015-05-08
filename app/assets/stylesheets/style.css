@@ -16,30 +16,13 @@
 	/*transform: 			translateY(-50%);*/
 }
 
-#filler {
+/*#filler {
 	width:900px;
   	height: 670px;
 	background-color:rgba(0,0,0,0.5);
-}
+}*/
 
-#top, #bottom, #left, #right {
-	background: #FFFFFF;
-	/*background-image: url("http://media-cdn.tripadvisor.com/media/photo-s/05/ef/20/ea/half-dozen-fresh-oysters.jpg");*/
-	position: fixed;
-	}
-	#left, #right {
-		top: 0; bottom: 0;
-		width: 178px;
-		}
-		#left { left: 0; }
-		#right { right: 0; }
-		
-	#top, #bottom {
-		left: 100; right: 100;
-		height: 15px;
-		}
-		#top { top: 0; }
-		#bottom { bottom: 0; }
+
 
 /*#bgndVideo {
 	width: 50%;
@@ -59,7 +42,7 @@ body {
   /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/Wood_Background_zpslocvf8nm.jpg");
   position: relative;
-  background-size: 100% 100%;
+  background-size: 100%;
   background-position: center;
  /* background-width:900px;
   height: 675px;*/
@@ -248,14 +231,6 @@ body {
     /*border-radius: 5px 5px 5px 5px;*/
 }
 
-#legal {
-	margin-top: 0px;
-	font-size: .01em;
-	margin-left:8px;
-	/*padding: 5px;*/
-	position: absolute;
-	color:white;
-}
 
 #copyright {
 	margin-top: 0px;
@@ -268,7 +243,7 @@ body {
 #cred {
 	font-size:.4em;
 	margin-top: 0px;
-	margin-left: 750px;
+	margin-left: 190px;
 	/*padding: 5px;*/
 	position: absolute;
 	color:white;
