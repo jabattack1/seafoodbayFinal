@@ -35,14 +35,14 @@ html, body {
 
 body {
 	width:900px;
-  	height: 650px;
+  	height: 900px;
     margin: 0 auto;
     padding: 0;
   background: url() no-repeat;
   /*background-color:rgba(0,0,0,0.5);*/
   background-image: url("http://i1301.photobucket.com/albums/ag119/jabattack1/Wood_Background_zpslocvf8nm.jpg");
   position: relative;
-  background-size: 100%;
+  background-size: 100% 100%;
   background-position: center;
  /* background-width:900px;
   height: 675px;*/
