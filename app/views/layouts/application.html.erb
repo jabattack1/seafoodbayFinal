@@ -27,7 +27,7 @@
 
   
 </head>
-<body>
+<body id='main'>
 <div id="page">
 
   <div id="fb-root"></div>
@@ -95,5 +95,14 @@
 
 
 </div>
+
+ <script language="javascript">
+        function autoResizeDiv()
+        {
+            document.getElementById('main').style.height = window.innerHeight +'px';
+        }
+        window.onresize = autoResizeDiv;
+        autoResizeDiv();
+    </script>
 </body>
 </html>
