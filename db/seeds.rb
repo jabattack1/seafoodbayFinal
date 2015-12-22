@@ -21,7 +21,7 @@ Menu.create({course: "Appetizers", dish_name: "Stuffed Mushrooms/Clam Casino Com
 Menu.create({course: "Appetizers", dish_name: "Cocktail Shrimp (10 Large)", description: "w/ Cocktail Sauce & Lemon Wedge", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Cocktail Shrimp (6 Jumbo)", description: "w/ Cocktail Sauce & Lemon Wedge", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Steamed Mussel(2LB)", description: "Red or Garlic and Butter", price: ""})
-Menu.create({course: "Appetizers", dish_name: "Jumbo Whole Wings(ea)", description: "", price: "$1.99"})
+Menu.create({course: "Appetizers", dish_name: "Jumbo Whole Wings(ea)", description: "", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Buffalo Wings(10)", description: "BBQ or Hot & Spicy or mild", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Buffalo Wings(20)", description: "BBQ or Hot & Spicy or mild", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Buffalo Wings(30)", description: "BBQ or Hot & Spicy or mild", price: ""})
