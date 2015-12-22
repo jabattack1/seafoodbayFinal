@@ -7,6 +7,8 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 
+
+Menu.destroy_all
 Menu.create({course: "Appetizers", dish_name: "Cherrystone Clams On The Half Shell(6)", description: "", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Littlenck Clams On The Half Shell(6)", description: "", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Steamed Littleneck Clams(12)", description: "(butter, broth, Lemon)", price: ""})
