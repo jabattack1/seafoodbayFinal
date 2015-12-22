@@ -5,7 +5,7 @@ class AdminSessionController < ApplicationController
 
   def create 
   	user = Admin.find_by(email: params[:email])
-
+    
     if user && user.authenticate(params[:password])
       session[:user_id] = user.id
       # session[:error] = nil # "Success"
