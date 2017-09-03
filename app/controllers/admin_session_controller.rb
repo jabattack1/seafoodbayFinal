@@ -20,9 +20,9 @@ class AdminSessionController < ApplicationController
   def destroy
     # binding.pry
     # log_out
-    # reset_session
+    reset_session
     # binding.pry
-    session["user_id"] = nil
+    # session["user_id"] = nil
     redirect_to '/admins'
   end
 

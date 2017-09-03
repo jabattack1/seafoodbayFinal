@@ -10,7 +10,7 @@
 
 Menu.destroy_all
 Menu.create({course: "Appetizers", dish_name: "Cherrystone Clams On The Half Shell(6)", description: "", price: ""})
-Menu.create({course: "Appetizers", dish_name: "Littlenck Clams On The Half Shell(6)", description: "", price: ""})
+Menu.create({course: "Appetizers", dish_name: "Littleneck Clams On The Half Shell(6)", description: "", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Steamed Littleneck Clams(12)", description: "(butter, broth, Lemon)", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Clams Casino(4)", description: "", price: ""})
 Menu.create({course: "Appetizers", dish_name: "Stuffed Mushrooms Caps with Crab Meat(5)", description: "", price: ""})
@@ -133,14 +133,11 @@ Menu.create({course: "A La Carte", dish_name: "Whiting(per lb.)", description: "
 
 Menu.create({course: "Specials", dish_name: "Special No. 1", description: "3/4 lb. Fresh Fried Flounder, 10 Jumbo Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
 Menu.create({course: "Specials", dish_name: "Special No. 2", description: "3/4 lb. Fresh Fried Flounder, 6 Tender Fried Sea Scallops, 3 Jumbo Shrimp, 2 Fish Cakes, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 3", description: "3/4 lb. Fresh Fried Flouner, 2 Deviled Crabs, 2 Deviled Clams, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 4", description: "2 Stuffed Flounder, 6 Fried Jumbo Shrimp, 2 Shrimp Rolls, 1 Order Fried Clams (1/2lb.), 1 pt. Creamy Cole Slaw", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 5", description: "3/4 lb. Fresh Fried Flounder, 2 Deviled Crabs, 6 Jumbo Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 6", description: "3/4 lb. Fresh Fried Flounder, 8 Large Butterfly Shrimp, 2 Deviled Clams, 2 Fish Cakes, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 7", description: "1 lb. Fresh Fried Flounder, 8 Jumbo Shrimp, 10 Plump Sea Scallops, 2 Deviled Crabs, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 8", description: "3/4 lb. Fresh Fried Flounder, 15 Large Butterfly Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 9", description: "3/4 lb. Fresh Fried Flounder, 10 Large Butterfly Shrimp, 6 Plump Sea Scallops, 2 Deviled Crabs, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
-Menu.create({course: "Specials", dish_name: "Special No. 10", description: "1 lb. Fried Boneless Chicken Tender, 15 Large Butterfly Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 2oz. Cocktail & BBQ Sauce", price: ""})
+Menu.create({course: "Specials", dish_name: "Special No. 3", description: "3/4 lb. Fresh Fried Flouner, 2 Deviled Crabs, 6 Jumbo Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
+Menu.create({course: "Specials", dish_name: "Special No. 4", description: "3/4 lb. Fresh Fried Flouner, 8 Large Butterfly Shrimp, 2 Deviled Clams, 2 Fish Cakes, 1 Large Order Crisp French Fries, 1 pt. Creamy Cole Slaw, 4 oz. Cocktail or Tarter Sauce", price: ""})
+Menu.create({course: "Specials", dish_name: "Special No. 5", description: "3/4 lb. Fresh Fried Flounder, 15 Large Butterfly Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
+Menu.create({course: "Specials", dish_name: "Special No. 6", description: "3/4 lb. Fresh Fried Flounder, 10 Large Butterfly Shrimp, 6 Plump Sea Scallops, 2 Deviled Clams, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
+Menu.create({course: "Specials", dish_name: "Special No. 7", description: "1 lb. Fried Boneless Chicken Tender, 15 Large Butterfly Shrimp, 1 Large Order Crisp French Fries, 1pt. Creamy Cole Slaw, 4oz. Cocktail or Tartar Sauce", price: ""})
 Menu.create({course: "Specials", dish_name: "Special For Two - Special A", description: "1/2 lb. Fresh Fried Flouner, 3 Jumbo Shrimp, Small Order Crsip French Fries, 1/2 lb. Creamy Cole Slaw, 2oz. Cocktail or Tartar Sauce", price: ""})
 Menu.create({course: "Specials", dish_name: "Special For Two - Special B", description: "1/2 lb. Fresh Fried Flounder, 3 Jumbo Shrimp, 3 Plump Sea Scallops, 1 Shrimp Roll, Small Order Crsip French Fries, 1/2 lb. Creamy Cole Slaw, 2oz. Cocktail or Tartar Sauce", price: ""})
 Menu.create({course: "Specials", dish_name: "Special For Two - Special C", description: "1/2 lb. Fresh Fried Flounder, 2 Deviled Crabs, 2 Jumbo Shrimp, 2 Tender Sea Scallops, Small Order Crsip French Fries, 1/2 lb. Creamy Cole Slaw, 2oz. Cocktail or Tartar Sauce", price: ""})
